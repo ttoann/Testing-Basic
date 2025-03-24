@@ -1,10 +1,8 @@
-(Deprecated) TO-DO Notes - Code for 5.1-5.3 Testing Codelab
-============================================================================
+Student Name: Nguyễn Tiến Toàn
 
-> [!CAUTION]
-> This codelab is deprecated and it will be removed soon.
+Student ID: 22110078
 
-Code for the Advanced Android Kotlin Testing Codelab 5.1-5.3
+Project: Testing Basic
 
 Introduction
 ------------
