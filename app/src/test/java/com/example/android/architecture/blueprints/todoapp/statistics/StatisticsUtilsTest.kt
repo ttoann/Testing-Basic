@@ -7,6 +7,7 @@ import org.junit.Test
 
 class StatisticsUtilsTest {
 
+    //    Task 2: Writing your first test
     @Test
     fun getActiveAndCompletedStats_noCompleted_returnsHundredZero() {
         // Create an active task
@@ -20,6 +21,7 @@ class StatisticsUtilsTest {
         assertThat(result.completedTasksPercent, `is`(0f))
     }
 
+    //     Task 3: Writing more tests
     @Test
     fun getActiveAndCompletedStats_noActive_returnsZeroHundred() {
         val tasks = listOf(

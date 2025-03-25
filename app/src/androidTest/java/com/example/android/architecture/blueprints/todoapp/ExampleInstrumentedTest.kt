@@ -18,6 +18,7 @@ class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
         // Context of the app under test.
+//        Task 1: Running tests
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.example.android.architecture.blueprints.reactive",
             appContext.packageName)

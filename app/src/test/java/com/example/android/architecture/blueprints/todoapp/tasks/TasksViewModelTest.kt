@@ -27,20 +27,36 @@ class TasksViewModelTest {
         tasksViewModel = TasksViewModel(ApplicationProvider.getApplicationContext())
     }
 
-    @Test
-    fun addNewTask_setsNewTaskEvent() {
+      // Task 4: Setting up a ViewModel Test with AndroidX Test
+//    @Test
+//    fun addNewTask_setsNewTaskEvent() {
+//
+//        // Given a fresh ViewModel
+//        val tasksViewModel = TasksViewModel(ApplicationProvider.getApplicationContext())
+//
+//        // When adding a new task
+//        tasksViewModel.addNewTask()
+//
+//        // Then the new task event is triggered
+//        // TODO test LiveData
+//    }
 
-        // Given a fresh ViewModel
-        val tasksViewModel = TasksViewModel(ApplicationProvider.getApplicationContext())
+      // Task 5: Writing Assertions for LiveData
+//    @Test
+//    fun addNewTask_setsNewTaskEvent() {
+//
+//        // Given a fresh ViewModel
+//        val tasksViewModel = TasksViewModel(ApplicationProvider.getApplicationContext())
+//
+//        // When adding a new task
+//        tasksViewModel.addNewTask()
+//
+//        // Then the new task event is triggered
+//        val value = tasksViewModel.newTaskEvent.getOrAwaitValue()
+//        assertThat(value.getContentIfNotHandled(), (not(nullValue())))
+//    }
 
-        // When adding a new task
-        tasksViewModel.addNewTask()
-
-        // Then the new task event is triggered
-        val value = tasksViewModel.newTaskEvent.getOrAwaitValue()
-        assertThat(value.getContentIfNotHandled(), (not(nullValue())))
-    }
-
+    // Task 6: Writing multiple ViewModel tests
     @Test
     fun setFilterAllTasks_tasksAddViewVisible() {
 
